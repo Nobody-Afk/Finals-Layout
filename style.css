@@ -4,13 +4,22 @@
 	box-sizing: border-box;
 	font-family: arial;
 	}
-	#logo-div{
-	width: 100%;
-	min-height: 50px;
-	background-color: #0922ce;
-	padding-left: 2%;
-	line-height: 50px;
-	margin-bottom: 10px;
+	#logodiv {
+		width: 50%;
+		min-height: 50px;
+		background-color: #0922ce;
+		padding-left: 2%;
+		padding-right: 2%;
+		line-height: 40px;
+		float: left;
+	}
+	#logodiv img {
+		max-height: 30px;
+		width: auto;
+	}
+    #Top-div {
+		width: 100%;
+		margin-bottom: 10px;
 	}
 	#navdiv {
         width: 50%;
@@ -60,27 +69,31 @@
 		float: right;
 		line-height: 400px;
 	}
+	#bodyarea-div p{
+        margin-bottom: 10px;
+    }
 	.clearfix::after{
 		content:"";
 		display: block;
 		clear:both;
 	}
-    #footer-div {
-        text-align: center;
-        background-color: #0922ce;
-    }
-    #footer-div img{
-        max-width: 15%;
+	#footer-div {
+		text-align: center;
+		background-color: #0922ce;
+	}
+	#footer-div img{
+		max-width: 15%;
 max-height: 15%;
-    }
-    #footer-div p{
-        width: 30%;
-        padding-left: 2%;
-        padding-right: 2%;
-        padding-top: 2.5%;
-        text-align: center;
-        float: right;
-    }
+	}
+	
+	#footer-div p{
+		width: 30%;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 2.5%;
+		text-align: center;
+		float: right;
+	}
 	#wrapper-div{
 		width: 80%;
 		background-color: #E10A32;
